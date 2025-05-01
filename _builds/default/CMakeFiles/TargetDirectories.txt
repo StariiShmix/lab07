@@ -1,0 +1,10 @@
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/print.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/demo.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/package.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/package_source.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/edit_cache.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/rebuild_cache.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/list_install_components.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/install.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/install/local.dir
+/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default/CMakeFiles/install/strip.dir

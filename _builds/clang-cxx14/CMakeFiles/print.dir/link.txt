@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libprint.a CMakeFiles/print.dir/sources/print.cpp.o
+/usr/bin/llvm-ranlib libprint.a
