@@ -1,0 +1,65 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.28.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/clang-cxx14`
+  `-GUnix Makefiles`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/vladislav/StariiShmix/workspace/projects/lab07/tools/polly/clang-cxx14.cmake`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "cmake" "-H." "-B/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/vladislav/StariiShmix/workspace/projects/lab07/tools/polly/clang-cxx14.cmake"
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- [polly] Used toolchain: clang / c++14 support
+-- The C compiler identification is Clang 18.1.3
+-- The CXX compiler identification is Clang 18.1.3
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/vladislav/projects/hunter
+-- [hunter] [ Hunter-ID: xxxxxxx | Toolchain-ID: 71bad34 | Config-ID: cf272be ]
+-- [hunter] GTEST_ROOT: /home/vladislav/projects/hunter/_Base/xxxxxxx/71bad34/cf272be/Install (ver.: 1.15.2)
+-- Found GTest: /home/vladislav/projects/hunter/_Base/xxxxxxx/71bad34/cf272be/Install/lib/cmake/GTest/GTestConfig.cmake (found version "1.15.2")
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vladislav/StariiShmix/workspace/projects/lab07/_builds/clang-cxx14
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/clang-cxx14`
+  `--`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "cmake" "--build" "/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/clang-cxx14" "--"
+[ 25%] Building CXX object CMakeFiles/print.dir/sources/print.cpp.o
+[ 50%] Linking CXX static library libprint.a
+[ 50%] Built target print
+[ 75%] Building CXX object CMakeFiles/demo.dir/demo/main.cpp.o
+[100%] Linking CXX executable demo
+[100%] Built target demo

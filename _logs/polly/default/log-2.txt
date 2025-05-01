@@ -1,0 +1,49 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.28.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/vladislav/StariiShmix/workspace/projects/lab07/tools/polly/default.cmake`
+]
+[/home/vladislav/StariiShmix/workspace/projects/lab07]> "cmake" "-H." "-B/home/vladislav/StariiShmix/workspace/projects/lab07/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/home/vladislav/StariiShmix/workspace/projects/lab07/tools/polly/default.cmake"
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/vladislav/projects/hunter
+-- [hunter] [ Hunter-ID: xxxxxxx | Toolchain-ID: fb15dbb | Config-ID: cf272be ]
+-- [hunter] GTEST_ROOT: /home/vladislav/projects/hunter/_Base/xxxxxxx/fb15dbb/cf272be/Install (ver.: 1.15.2)
+CMake Error at CMakeLists.txt:67 (add_executable):
+  add_executable cannot create target "demo" because another target with the
+  same name already exists.  The existing target is an executable created in
+  source directory "/home/vladislav/StariiShmix/workspace/projects/lab07".
+  See documentation for policy CMP0002 for more details.
+
+
+CMake Error at CMakeLists.txt:72 (add_executable):
+  add_executable cannot create target "demo" because another target with the
+  same name already exists.  The existing target is an executable created in
+  source directory "/home/vladislav/StariiShmix/workspace/projects/lab07".
+  See documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
